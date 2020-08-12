@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dan Xu - Events</title>
+<!-- <meta name="description" content="Dr. Dan Xu, Assistant Professor, Department of " /> -->
+<meta name="keywords" content="Dan Xu; HKUST; VGG; University of Oxford; Oxford; Computer vision; Machine Learning; Multimedia; CVPR; NIPS; Scene Understanding; 2D; 3D; depth" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+		<meta name="google-site-verification" 
+content="H_f9Itsrdoc8WY1KDH1nc6DQ1-6e_Q23MLPGBO0arHA" />
+
+<script type="text/javascript">
+var timeKeeper;
+
+$('#menu').click(function()
+{
+    $('#bibtex').show();
+});
+
+$('#bibtex').click(function()
+{
+    clearTimeout(timeKeeper);                  
+});
+
+$('#menu').focusout(function()
+{
+    timeKeeper = setTimeout(function() {$('#bibtex').hide()}, 150);
+});
+
+$('#menu').attr('tabIndex', -1);
+$('#bibtex').hide();
+</script>
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1530535589" title="wsite-theme-css" />
+
+<link href='http://fonts.googleapis.com/css?family=Yantramanav:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Times New Roman" !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Times New Roman" !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {color:#515151 !important;}
+.wsite-not-footer h2.wsite-content-title a, .wsite-not-footer .paragraph a, .wsite-not-footer blockquote a, #blogTable .blog-sidebar a, #blogTable .blog-comments a, #blogTable .blog-comments-bottom a, #wsite-com-store a, #wsite-com-product-gen a {color:#052ef3 !important;}
+.wsite-menu-default a {font-family:"Yantramanav" !important;text-transform:  none !important;letter-spacing: 0px !important;}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+.wsite-not-footer h2.wsite-content-title a:hover, .wsite-not-footer .paragraph a:hover, .wsite-not-footer blockquote a:hover, #blogTable .blog-sidebar a:hover, #blogTable .blog-comments a:hover, #blogTable .blog-comments-bottom a:hover, #wsite-com-store a:hover, #wsite-com-product-gen a:hover {color:#8d2424 !important;}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {line-height:20px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:16px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {font-size:22px !important;}
+.wsite-menu-default a {font-size:15px !important;}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+
+		<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.storeCountry = "NL";
+			_W.storeCurrency = "USD";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "100730443961222929";
+			com_userID = "30604459";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"> window._W = window._W || {}; _W.showV2Footer = 0; </script><script type="text/javascript"><!--
+	var IS_ARCHIVE = 1;
+	
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"871451071371970207","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"370701905153002880","title":"About Me","url":"#About Me","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"605036677414579087","title":"People","url":"http:\/\/people.html","target":"","nav_menu":false,"nonclickable":false},
+				{"id":"605036677414579077","title":"Publications","url":"http:\/\/publications.html","target":"","nav_menu":false,"nonclickable":false}
+				{"id":"605036677414579107","title":"Projects","url":"http:\/\/projects.html","target":"","nav_menu":false,"nonclickable":false}
+				{"id":"605036677414579097","title":"Activities","url":"http:\/\/activities.html","target":"","nav_menu":false,"nonclickable":false}
+				{"id":"605036677414579117","title":"Positions","url":"http:\/\/positions.html","target":"","nav_menu":false,"nonclickable":false}
+
+				],
+			"871451071371970207",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
+//-->
+</script>
+		
+		
+	</head>
+	<body class=" no-header-page  wsite-theme-light  wsite-page-index"><div id="container">
+	<table id="header">
+		<tr>
+			<td id="logo"><span class="wsite-logo">
+
+	
+	<span class="wsite-title-placeholder">&nbsp;</span><span style="display:none">
+	<span style="display:none">Dan Xu's Research Page!</span>
+	</span>
+	
+
+</span></td>
+			<td id="header-right">
+				<table>
+					<tr>
+						<td class="phone-number"></td>
+						<td class="social"></td>
+						<td class="search"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<div id="navigation">
+		<div id="nav-r">
+			<div id="nav-content">
+				<ul class="wsite-menu-default">
+						<li id="active" class="wsite-menu-item-wrap">
+							<a
+										href="index.html"
+								class="wsite-menu-item"
+								>
+								Home
+							</a>
+							
+						</li>
+						<li id="pg370701905153002880" class="wsite-menu-item-wrap">
+							<a
+										href="#About Me"
+								class="wsite-menu-item"
+								>
+								About Me
+							</a>
+							
+						</li>
+						<li id="pg605036677414579087" class="wsite-menu-item-wrap">
+							<a
+										href="people.html"
+								class="wsite-menu-item"
+								>
+								People
+							</a>
+							
+						</li>
+						<li id="pg605036677414579077" class="wsite-menu-item-wrap">
+							<a
+										href="publications.html"
+								class="wsite-menu-item"
+								>
+								Publications
+							</a>
+							
+						</li>
+						<li id="pg605036677414579107" class="wsite-menu-item-wrap">
+							<a
+										href="projects.html"
+								class="wsite-menu-item"
+								>
+								Projects
+							</a>
+							
+						</li>
+						<li id="pg605036677414579097" class="wsite-menu-item-wrap">
+							<a
+										href="activity.html"
+								class="wsite-menu-item"
+								>
+								Activities
+							</a>
+							
+						</li>
+						<li id="pg605036677414579117" class="wsite-menu-item-wrap">
+							<a
+										href="position.html"
+								class="wsite-menu-item"
+								>
+								Positions
+							</a>
+							
+						</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div id="banner-bot">
+			<div id="banner-top">
+				<div id="banner">
+					<div class="wsite-header"></div>
+					<em id="tl"></em>
+					<em id="tr"></em>
+					<em id="bl"></em>
+					<em id="br"></em>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:33.818493150685%; padding:0 15px;">
+					
+
+<h2 class="wsite-content-title" style="text-align:left;"><font size="5">New Events</font></h2>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div class="paragraph" style="text-align:left;"><ul>
+		<li><strong><font size="3.5" color="black">I will join the <a href="https://www.cse.ust.hk/" target="_blank">CSE Department </a> of <a href=http://www.ust.hk/home target="_blank">Hong Kong University of Science and Technology (HKUST)</a> as an Assistant Professor in fall 2020.</font> <font size="3.5" color="#a82e2e">I am looking for self-motivated Ph.D./MPhil. students, RAs and visiting scholars to join my group. Please drop me an email with your CV if you are interested.</font></strong></li> 
+		<li><font size="3"><strong>Mar. 15, 2020:</strong> Two papers (1 Oral and 1 Poster) are accepted by <a href="http://cvpr2020.thecvf.com" target="_blank">CVPR 2020</a>. The papers will come out soon. </font></li>
+		<li><font size="3"><strong>May. 25, 2020:</strong> I am invited to serve as an Area Chair for <a href= "https://2020.acmmm.org/" target="_blank">ACM MM 2020</a>. </font></li>
+		<li><font size="3"><strong>May. 10, 2020:</strong> I am invited to serve as an Area Chair for <a href= "http://wacv2021.thecvf.com/home" target="_blank">WACV 2021</a>. </font></li>
+		<li><font size="3"><strong>Mar. 10, 2020:</strong> I am invited to serve as Programme Committee member of <a href="https://nips.cc/Conferences/2020" target="_blank">NeurIPS 2020</a>.</font></li>
+	<li><font size="3"><strong>Feb. 07, 2020:</strong> I am invited to serve as an Area Chair for <a href= "https://www.micc.unifi.it/icpr2020/" target="_blank">ICPR 2020</a>. </font></li>
+	<li><font size="3"><strong>Aug. 18, 2019:</strong> Our "<a href= "https://arxiv.org/pdf/1908.06955.pdf" target="_blank">Dynamic Graph Message Passing Networks</a>" has been Arxived! It outperforms Non-Local Model with much lower FLOPs!</font></li>
+	<li><font size="3"><strong>Aug. 10, 2019:</strong> Our work of using cycled networks for unsupervised binocular depth estimation has been accepted by <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34" target="_blank">TPAMI.</a></font></li>
+	<li><font size="3"><strong>Jul. 22, 2019:</strong> We have two papers accepted by <a href="http://iccv2019.thecvf.com" target="_blank">ICCV 2019</a>. The papers will come out soon.</font></li>
+	<li><font size="3"><strong>Jul. 3, 2019:</strong> Our work ''Geometry-Aware Video Object Detection for Static Cameras'' has been accepted at <a href="https://bmvc2019.org/" target="_blank">BMVC 2019</a> as an ORAL.</font></li>
+		<li><font size="3"><strong>Jul. 3, 2019:</strong> Our "Cycle in Cycle Generative Adversarial Networks for Keypoint-Guided Image Generation" is acepted at <a href="https://www.acmmm.org/2019/" target="_blank">ACM MM 2019</a> as an ORAL.</font></li>
+		<li><font size="3"><strong>Mar. 3, 2019:</strong> Our work on Semantic Guided Cross-View Traslation is accepted at <a href="http://cvpr2019.thecvf.com/" target="_blank">CVPR 2019</a> as an oral. The <a href="http://disi.unitn.it/~hao.tang/project/SelectionGAN.html" target="_blank">project page</a> and GitHub <a href="https://github.com/Ha0Tang/SelectionGAN" target="_blank">code</a> are available now.</font></li>
+	<li><font size="3"><strong>Aug. 1, 2018:</strong> The training and testing <a href="https://github.com/danxuhk/StructuredAttentionDepthEstimation" target="_blank">code</a> for </font><font size="3">Structured Attention Guided Convolutional Neural Fields for Monocular Depth Estimation is available.</font></li>
+	<li><font size="3"><strong>Jun. 18, 2018:</strong> The <a href="https://github.com/dapengchen123/crf_affinity" target="_blank">code</a> for </font><font size="3">Group Consistent Similarity Learning via Deep CRFs for&nbsp;Person Re-Identification is available.</font></li>
+	<li><font size="3"><strong>Jun. 1, 2018:</strong>&nbsp;One paper is accepted at <a href="http://www.acmmm.org/2018/" target="_blank">ACM MM 2018</a> as an oral.&nbsp;</font></li>
+	<li><font size="3"><strong>Mar. 11, 2018:</strong>&nbsp;One paper is accepted at <a href="https://www.computer.org/web/tpami" target="_blank">TPAMI 2018</a>.&nbsp;</font></li>
+	<li><font size="3"><strong>Feb. 02, 2018</strong>: Four&nbsp;papers including one oral and one spotlight&nbsp;are accepted at <a href="http://cvpr2018.thecvf.com/" target="_blank">CVPR 2018</a>.</font></li><li><font size="3"><strong>Sep. 04, 2017: </strong>One paper is accepted at <a href="https://nips.cc/" target="_blank">NIPS 2017</a>&nbsp;which will be held in Long Beach, USA.</font><font size="3"><strong>&nbsp;</strong></font></li><li><font size="3"><strong>Jul. 10, 2017: </strong>We published the <a href="https://github.com/danxuhk/ContinuousCRF-CNN" target="_blank">code</a> for continuous CRFs as sequential neural network associated with our CVPR 2017 spotlight paper on GitHub.</font></li><li><font size="3"><strong>Mar. 10, 2017: </strong>The <a href="https://github.com/xavirema/lena_pooling" target="_blank">code</a> for learned Top-K Global Pooling published at CVPR 2017 is available on GitHub.</font></li><li><font size="3"><strong>Feb.27th, 2017</strong>: One spotlight and two posters are accepted at <a href="http://cvpr2017.thecvf.com/" target="_blank">CVPR 2017</a>.</font></li><li><font size="3"><strong>Dec. 6th, 2016:</strong>&nbsp;Our&nbsp;paper is awarded <font color="#a82e2e">&#8203;Best Scientific Paper</font> at <a href="http://www.icpr2016.org/site/" target="_blank">ICPR 2016</a>.&nbsp;</font></li><li><font size="3">&#8203;<strong>Aug. 15th, 2016:</strong>&nbsp;Our&nbsp;paper is accepted at&nbsp;<a href="http://www.accv2016.org/" target="_blank">ACCV 2016</a>.</font></li><li><font size="3"><strong>Aug. 11th, 2016:</strong> Our&nbsp;paper is&nbsp;accepted at <a href="http://www.acmmm.org/2016/" target="_blank">ACM MM 2016</a>&nbsp;as an oral presentation.</font>&#8203;</li><li><font size="3"><strong>Jul. 12, 2015:</strong> Attend International Computer Vision Summer School (<a href="http://svg.dmi.unict.it/icvss2015/" target="_blank">ICVSS 2015</a>) held in Sicily, Italy.</font></li><li><font size="3"><strong>Jul. 03, 2015:</strong> Our paper is accepted at&nbsp;<a href="http://bmvc2015.swan.ac.uk/">BMVC 2015</a> as an oral presentation.</font></li><li><font size="3"><strong>Jun.28, 2015:</strong> My research homepage is online.</font></li></ul></div>
+
+<div><div style="height: 10px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 0px; overflow: hidden; width: 100%;"></div></div>
+
+<div class="paragraph" style="text-align:center;"><font size="2"><font color="#626262">&copy; 2015 by Dan Xu. All Rights Reserved.<strong>&nbsp;</strong>L</font><span style=""><font color="#626262">ast Modified: 08/07/2015</font></span></font><font size="2"><span style=""><br /></span></font></div>
+
+<div><div id="973426107240231346" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=10627532; 
+var sc_invisible=0; 
+var sc_security="4bf6f1aa"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="shopify stats"
+href="http://statcounter.com/shopify/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/10627532/0/4bf6f1aa/0/"
+alt="shopify stats"></a></div></noscript>
+
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=fcfbff&w=150&t=n&d=3eBmi1qebjNIRpKdLeuKOzZQKM1GqN3tshV3B4UD_yk&co=0b4975&cmo=3acc3a&cmn=ff5353&ct=cdd4d9'></script>
+<!-- End of StatCounter Code for Default Guide --></div>
+
+
+
+</div>
+</div>
+
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="footer-right">
+			Create a <a target="_top" href="http://www.robots.ox.ac.uk/~danxu">free web site</a> with <a target="_top" href="http://www.robots.ox.ac.uk/~danxu/" title="бесплатный сайт">Weebly</a>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+    <div id="customer-accounts-app"></div>
+    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
+
+		
+	</body>
+</html>
