@@ -1,0 +1,96 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 395px;
+}.u-section-2 .u-sheet-1 {
+  min-height: 757px;
+}
+
+.u-section-2 .u-gallery-1 {
+  width: 480px;
+  height: 360px;
+  grid-gap: 10px 10px;
+  margin: 65px auto 60px 301px;
+}
+
+.u-section-2 .u-carousel-item-1 {
+  margin-right: 0;
+}
+
+.u-section-2 .u-over-slide-1 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-2 .u-carousel-item-2 {
+  margin-right: 0;
+}
+
+.u-section-2 .u-over-slide-2 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-2 .u-carousel-item-3 {
+  margin-right: 0;
+}
+
+.u-section-2 .u-over-slide-3 {
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-2 .u-carousel-thumbnails-1 {
+  padding-top: 10px;
+}
+
+.u-section-2 .u-carousel-thumbnail-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-2 .u-carousel-thumbnail-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-2 .u-carousel-thumbnail-1 {
+  width: 100px;
+  height: 100px;
+}
+
+.u-section-2 .u-carousel-control-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  right: auto;
+}
+
+.u-section-2 .u-carousel-control-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-gallery-1 {
+    margin-left: 240px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-gallery-1 {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-gallery-1 {
+    margin-top: 93px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 585px;
+}
