@@ -381,6 +381,8 @@ figure,
 footer,
 header,
 main,
+menu,
+nav,
 section,
 summary {
   display: block;
@@ -15990,7 +15992,7 @@ div.u-video,
 }
 .menu-collapse .u-nav-link {
   text-decoration: none !important;
-  padding-top: 0px;
+  padding-top: 4px;
   padding-bottom: 4px;
   font-size: calc(1em + 8px);
 }
