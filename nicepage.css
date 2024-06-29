@@ -4,6 +4,31 @@
  * Copyright 2014-2021 Froala Labs
  */
 
+.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			/*font-family: FontAwesome;*/
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+	.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			/*font-family: FontAwesome;*/
+                        font-family: Academicons;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
 .fr-clearfix::after {
   clear: both;
   display: block;
