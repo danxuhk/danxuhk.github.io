@@ -181,7 +181,7 @@
 }
 
 div.paragraph ul, div.paragraph ol { padding-left: 1.5em !important; margin: 1.5px 0 !important;}
-div.paragraph li { padding-left: 25px !important; margin: 3px 0 0 !important; text-indent: -1.28571429em;}
+div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important;}
 div.paragraph ul { list-style-position: inside; padding-left: 1em;}
 /*div.paragraph ul, div.paragraph ul li { list-style: inside;}*/
 div.paragraph ol, div.paragraph ol li { list-style-position: inside;}
